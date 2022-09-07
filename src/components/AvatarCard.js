@@ -16,6 +16,7 @@ function AvatarCard({avatar, handleImageClick}){
           <Card.Meta>
           {avatar.meta}
           </Card.Meta>
+          
           <Card.Description>
           {avatar.description}
             </Card.Description>
