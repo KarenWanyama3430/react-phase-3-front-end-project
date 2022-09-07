@@ -8,8 +8,6 @@ function QuestionCard({level, monster, user, updateLevel}) {
     const squareUrl = "http://jahprovides.xyz/wp-content/uploads/2021/11/square.png"
     const boompow = "http://jahprovides.xyz/wp-content/uploads/2021/11/boompow.png"
 
-   
-
     const handleSubmit = (e) => {
         e.preventDefault()
         // console.log(formData)
