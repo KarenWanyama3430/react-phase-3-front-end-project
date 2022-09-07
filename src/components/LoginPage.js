@@ -5,7 +5,7 @@ function LoginPage() {
     const [allAvatars, setAllAvatars] = useState([])
     // const [allMonsters, setAllMonsters] = useState([])
   
-    
+
     useEffect(() => {
       fetch('http://localhost:9292/avatars')
       .then(res => res.json())
@@ -17,8 +17,7 @@ function LoginPage() {
     //   .then(res => res.json())
     //   .then(data => setAllMonsters(data))
     // }, []);
-  
-    
+
   
     return (
         <div>
