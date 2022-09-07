@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import { Button, Form, Card, Icon, Image } from "semantic-ui-react";
 
-
 function QuestionCard({level, monster, user, updateLevel}) {
     const [formData, setFormData] = useState("")
     const [questionNum, setQuestionNum] = useState(0)
