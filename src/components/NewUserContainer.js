@@ -40,9 +40,6 @@ function NewUserContainer({allAvatars}){
             })
             history.push("/level")
     }
-
-  
-
     const handleFormChange = (e) => {
         setFormData(currentFormData => Object.assign({...currentFormData}, {[e.target.name]:e.target.value}))
     }
