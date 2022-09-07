@@ -8,7 +8,6 @@ import ScorePage from './ScorePage'
 function App() {
 
   return (
-    
     <div className="App">
       <NavBar />
       <Switch>
