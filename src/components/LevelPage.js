@@ -23,6 +23,7 @@ function LevelPage() {
         })
     }, [])
 
+    
     useEffect(() => {
        fetch(`http://localhost:9292/levels/questions/${levelNum}`)
        .then((resp)=>resp.json())
